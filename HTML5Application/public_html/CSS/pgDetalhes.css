@@ -11,8 +11,7 @@ body>div>aside{
     max-height: 800px;
     width: 25%;
     margin-left: 30px;
-    //border: 2px solid brown;
-
+    /* border: 2px solid brown; */
 }
 
 .asideDetalhes article{
@@ -76,17 +75,17 @@ body>div>section>article:nth-child(2){
     margin-top: 3px;
 }
 body>div>section:nth-child(1){
-    //margin: 10px auto;
+    /* margin: 10px auto; */
     min-width: 700px;
     max-width: 1200px;
     min-height: 500px;
     max-height: 500px;
-    //background-color: #003399;
+    /* background-color: #003399; */
     padding-right: 2px;
-    //margin: 20px auto;
+    /* margin: 20px auto; */
 }
 body>div>section{
-    //margin: 10px auto;
+    /* margin: 10px auto; */
     min-width: 700px;
     max-width: 1200px;
     min-height: 300px;
@@ -95,7 +94,7 @@ body>div>section{
     margin-left: 73px;
 }
 body>div>section:first-child{
-   // background-color:  aqua;
+    /* background-color: aqua; */
     width: 60%;
 }
 

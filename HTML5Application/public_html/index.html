@@ -10,10 +10,14 @@
         <header>
             <div>
                 <div>
-                    <div>
-                        <figure>
-                            <img  src="imagens/logo.png" alt="logo">
-                        </figure>
+                    <div class="logo">
+                        <a href="#">
+                            <div>
+                                <figure>
+                                    <img src="imagens/logo.png" alt="logo">
+                                </figure>
+                            </div>
+                        </a>
                     </div>
                     <div>
                         <nav>
@@ -35,9 +39,23 @@
                             </ul>
                         </nav>
                     </div>
-                    <div>
-                        <input type="search" name="campo_busca" placeholder="Digite aqui o jogo que procura!" > 
-                        <button type="submit"> Buscar</button>
+                    <div class="pesquisa">
+                        <form action="pesquisa.html" method="GET">
+                            <input type="search" name="campo_busca" placeholder="Digite aqui o jogo que procura!" > 
+                            <button type="submit">Buscar</button>
+                        </form>
+                        <div>
+                            <a class="logar" href="#">
+                                Entrar
+                            </a>
+                        </div>
+                        <div>
+                            <a class="cesta" href="#">
+                                <figure>
+                                    <img src="imagens/cesta.jpg" alt="carrinho">
+                                </figure>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
